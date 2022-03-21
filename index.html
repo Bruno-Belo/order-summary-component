@@ -13,28 +13,36 @@
 
 </head>
 <body>
-
+  <!-- Tag main que engloba tudo -->
   <main>
+    <!-- Imagem Principal, img é a única tag fora de section. -->
     <img src="images/illustration-hero.svg" alt="Hero Illustration">
-
+    <!-- Tag section está englobando tudo, menos a imagem. -->
     <section>
       <h1>Order Summary</h1>
+      <!-- Descrição -->
       <span class="description">
         You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </span>
 
+      <!-- Essa div informations vai englobar o ícone, plano anual, preço e change. -->
       <div class="informations">
+        <!-- Essa div vai englobar o ícone, plano anual e preço. -->
         <div class="music-price">
+          <!-- Ícone da música ao lado do preço -->
           <img src="images/icon-music.svg" alt="Music Icon">
+          <!-- Essa div vai englobar plano anual e preço. -->
           <div class="price">
             <strong>Annual Plan</strong>
             <span>$59.99/year</span>
           </div>
+        <!-- Essa div engloba change. -->
         </div>
         <a href="#">Change</a>
       </div>
 
+      <!-- Um botão e um link que estão fora da div, mas estão dentro de section. -->
       <button>Proceed to Payment</button>
       <a href="#" id="cancel-order">Cancel Order</a>
     </section>
